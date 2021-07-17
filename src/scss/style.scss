@@ -1,0 +1,32 @@
+@import './_variables';
+@import './custom.scss';
+
+
+.custom-navbar .search-btn {
+    background-color: $brand-primary;
+    border-color: white;
+    color: #fff;
+    padding: 5px 15px 7px 15px;
+    height: 38px;
+    width: 65px;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.custom-navbar .search-btn:hover,
+.custom-navbar .search-btn:active,
+.custom-navbar .search-btn:focus,
+.custom-navbar .search-btn:active:focus,
+.custom-navbar .search-btn:active:hover {
+    background-color: $btn-primary-color-dark;
+    border-color: black;
+    color: #ffffff;
+}
+
+.custom-thumbnail .add-to-cart-btn {
+    background-color: #fff;
+    color: $brand-primary;
+    font-weight: bold;
+}
+
